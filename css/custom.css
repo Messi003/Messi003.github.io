@@ -1,8 +1,8 @@
 /* 页脚与头图透明 */
-#footer_img {
+#footer {
     background: transparent !important;
 }
-#index_img {
+#page-header {
     background: transparent !important;
 }
 
@@ -10,14 +10,14 @@
 #footer::before {
     background: transparent !important;
 }
-#index::before {
+#page-header::before {
     background: transparent !important;
 }
 
 /* 夜间模式遮罩透明 */
-[data-theme="dark"] #footer_img::before {
+[data-theme="dark"] #footer::before {
     background: transparent !important;
 }
-[data-theme="dark"] #index_img::before {
+[data-theme="dark"] #page-header::before {
     background: transparent !important;
 }
